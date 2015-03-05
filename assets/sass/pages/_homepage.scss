@@ -1,0 +1,59 @@
+.slide {
+
+  color: $white;
+
+  .slide-content {
+    padding: 60px 0 10px;
+
+    .description {
+      margin: 20px 0;
+      font-size: 1.8rem;
+    }
+  }
+
+  .slide-1 {
+    background: url('../../../assets/images/photo.jpg');
+    background-size: cover;
+  }
+
+  .infobox {
+    background: $white-pure;
+    width: 185px;
+    float: left;
+    padding: 10px 20px;
+    border-right: 1px solid #cecece;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+}
+
+.infobox {
+  font-size: 3rem;
+
+  color: $gray;
+
+  .title {
+    color: lighten($gray, 30%);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  small {
+    font-size: 1.8rem;
+  }
+}
+
+ul.list-checkmark {
+
+  padding: 0;
+
+  li {
+    font-size: 1.6rem;
+    line-height: 3em;
+    list-style: inside none url('../../assets/images/checkmark.png');
+  }
+}
+

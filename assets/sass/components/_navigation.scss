@@ -1,0 +1,28 @@
+.navigation {
+
+  background-color: $white-pure;
+  padding: 8px 0;
+
+  .logo {
+    vertical-align: middle;
+  }
+
+  .menu {
+    padding: 10px 0;
+
+    .menu-item {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0 10px;
+
+      @include button-variant(lighten($gray, 10%), $white-pure, transparent);
+      @include button-size(4px, 16px, 1.6rem, 2, 6px);
+
+      &.highlight {
+        @include button-variant($white, $primary-color, transparent);
+      }
+    }
+
+  }
+
+}
