@@ -22,28 +22,24 @@
     float: left;
     padding: 10px 20px;
     border-right: 1px solid #cecece;
+    font-size: 3rem;
+    color: $gray;
+
+    .title {
+      color: lighten($gray, 30%);
+      font-size: 1.3rem;
+      text-transform: uppercase;
+    }
+
+    small {
+      font-size: 1.8rem;
+    }
 
     &:last-child {
       border-right: none;
     }
   }
 
-}
-
-.infobox {
-  font-size: 3rem;
-
-  color: $gray;
-
-  .title {
-    color: lighten($gray, 30%);
-    font-size: 1.3rem;
-    text-transform: uppercase;
-  }
-
-  small {
-    font-size: 1.8rem;
-  }
 }
 
 ul.list-checkmark {
